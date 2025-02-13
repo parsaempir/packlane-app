@@ -1,0 +1,92 @@
+.heder{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+  
+}
+.top-head{
+    width: 100%;
+    display:flex;
+position: relative;
+align-items: center;
+height: 70px;
+justify-content: space-between;
+}
+.hover-box {
+    position: absolute;
+    top: 100%;
+right: 0;    margin-top: 8px;
+    padding: 10px;
+    background-color: #e2e8f0;
+    border: 1px solid #cbd5e0; 
+    border-radius: 6px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; 
+    width: 60%;
+  }
+  
+  .show {
+    display: block; 
+  }
+  .inp{
+    width: 30%;
+    min-height: 48px;
+    border-radius: 24px;
+    padding: 0 40px 0 24px;
+    font-family: "Libre Franklin", Arial, sans-serif;
+    border: none;
+    background-color: #F6F6F6;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .head-text{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+.hover-boxone{
+    position: absolute;
+    top: 60px;
+right: 65px;    
+background-color: white;    
+    border-radius: 6px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; 
+    width: 15%;
+}
+.showone{
+    display: block;
+}
+.hover-boxone p{
+    padding: 16px 24px;    margin: 0;
+    color: #373A3C;
+    border-radius: 6px 6px 0px 0px;
+    font-weight: 500;
+
+}
+.hover-boxone p:hover{background-color:rgba(0, 0, 0, 0.037);
+    text-decoration:underline;
+   color: #2E469D;
+}
+.head-text span{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.head-text span:hover{   color: #2E469D;
+    border-bottom: 2px solid #2E469D; 
+}
+.showtow{
+    display: block;
+}
+.hover-boxtow{
+    position: absolute;
+    top: 60px;
+right: 65px;    
+background-color: white;    
+    border-radius: 6px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; 
+    width: 15%;
+}
