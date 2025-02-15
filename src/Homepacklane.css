@@ -181,3 +181,71 @@ gap: 55px;
 .text-span:hover{
     border-bottom: 3px solid #2E469D; 
 }
+.box-head-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.text-box{
+    display: flex;
+    justify-content: center;
+    gap:  100px;
+}
+.text-box h3{
+    font-size: 17px;
+    font-weight: bolder;
+    color: #2E469D;
+    margin: 0;
+}
+.text-box h5{
+    font-size: 13.5px;
+    color: #373A3C;
+margin: 5px 0px;
+}
+.box-head-tow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 45px;
+}
+.text-box-one{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.text-box-one h3{
+    font-size: 17px;
+    font-weight: bolder;
+    color: #2E469D;
+    margin: 0;
+}
+.text-box-one h5{
+    font-size: 13.5px;
+    color: #373A3C;
+margin: 5px 0px;
+}
+.box-head-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.text-box-fuor{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    right: 2%;
+}
+.text-box-fuor h3{
+    font-size: 17px;
+    font-weight: bolder;
+    color: #2E469D;
+    margin: 0;
+}
+.text-box-fuor h5{
+    font-size: 13.5px;
+    color: #373A3C;
+margin: 5px 0px;
+}

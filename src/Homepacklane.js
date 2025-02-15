@@ -6,12 +6,29 @@ import dwon from './Pictures/chevron-down-solid.svg';
 import buy from './Pictures/cart-shopping-solid.svg';
 import serach from './Pictures/magnifying-glass-solid.svg';
 import box from './Pictures/mailer-box-1.png';
+import boxone from './Pictures/Packlane_Nav_Product_Boxes_Paperboard_246x207.png';
+import boxtow from './Pictures/Packlane_Nav_Product_Boxes_Corrugated_246x207.png';
+import boxthree from './Pictures/Packlane_Nav_Product_Boxes_Hanging_246x207.png';
+import boxfuor from './Pictures/Packlane_Nav_Magnetic_Box_276x207.png';
+import boxfive from './Pictures/Packlane_Nav_Set_Box_B_276x207.png';
+import boxsix from './Pictures/Packlane_Nav_Standard_Shipper_288x207.png';
+import boxseven from './Pictures/Packlane_Nav_Wrap-Style_Shipper_288x207.png';
+import boxeight from './Pictures/Packlane_Nav_Econoflex_Shippers_288x207.png';
+import boxnine from './Pictures/Packlane_Nav_Stand-Up_Pouches_276x207.png';
+import boxten from './Pictures/Packlane_Nav_Flat_Pouches_276x207.png';
+import boxeleven from './Pictures/Packlane_Nav_Water-Activated_Tape_288x207.png';
+import boxtwelve from './Pictures/Packlane_Nav_Poly_Tape_288x207.png';
+import boxthirteen from './Pictures/Packlane_Nav_Tissue_288x207.png';
 function Home() {
     const [showDiv, setShowDiv] = useState(false);
     const [divShow, setDivShow] = useState(false);
     const [Showone, setShowone] = useState(false);
     const [Showtow, setShowtow] = useState(false);
     const [Showthree, setShowthree] = useState(false);
+    const [Showfuor, setShowfuor] = useState(false);
+    const [Showfive, setShowfive] = useState(false);
+    const [Showsix, setShowsix] = useState(false);
+    const [Showseven, setShowseven] = useState(false);
 
 
 return(
@@ -87,11 +104,108 @@ onMouseLeave={() => setShowtow(false)}
 </span>
 
 </div>
-<span className='text-span'>Product Boxes</span>
-<span className='text-span'>Rigid Boxes</span>
-<span className='text-span'> Shipping Boxes</span>
-<span className='text-span'>Pouches</span>
-<span className='text-span'>Packaging Accessories</span>
+<span className='text-span'
+onMouseEnter={() => setShowthree(true)}
+onMouseLeave={() => setShowthree(false)}
+>Product Boxes</span>
+{/* */}
+<div className={`show-hover ${Showthree ?"show-hover-one" : ""}`}
+onMouseEnter={() => setShowthree(true)}
+onMouseLeave={() => setShowthree(false)}
+>
+ <span className='box-head-one'>
+    <img src={boxone}/>
+
+    <img src={boxtow}/>
+    <img src={boxthree}/>
+    </span>
+   <div className='text-box'>
+<h3>Cardstock Product Boxes<br/><h5>Picture-perfect display best for retall<br/> stores</h5></h3>
+
+<h3>Corrugated Product Boxes <br/><h5>Flaunt the goods while protecting<br/> what's crucial.</h5></h3>
+<h3> Hanging Tab Boxes<br/><h5>Reach new heights with product<br/> displays</h5></h3>
+
+   </div>
+</div>
+
+<span className='text-span' 
+onMouseEnter={() => setShowfuor(true)}
+onMouseLeave={() => setShowfuor(false)}
+>Rigid Boxes</span>
+{/* */}
+<div className={`show-hover ${Showfuor ?"show-hover-one" : ""}`}
+onMouseEnter={() => setShowfuor(true)}
+onMouseLeave={() => setShowfuor(false)}
+>
+<span className='box-head-tow'>
+<img src={boxfuor} />
+<img src={boxfive}/>
+</span>
+<div className='text-box-one'>
+    <h3>Magnetic Gift Boxes<br/> <h5>Magnetic elegance in every snap.</h5></h3>
+    <h3>Setup Boxes<br/> <h5>Elegance out of the box, ready to<br/> elevate your product.</h5></h3>
+
+</div>
+</div>
+<span className='text-span'
+onMouseEnter={() => setShowfive(true)}
+onMouseLeave={() => setShowfive(false)}
+> Shipping Boxes</span>
+{/* */}
+<div className={`show-hover ${Showfive ?"show-hover-one" : ""}`}
+onMouseEnter={() => setShowfive(true)}
+onMouseLeave={() => setShowfive(false)}
+>
+<span className='box-head-three'>
+<img src={boxsix}/>
+<img src={boxseven}/>
+<img src={boxeight}/>
+</span>
+<div className='text-box'>
+<h3>Standard Shipping Boxes<br/><h5>Strong enough to ship heavy items and<br/> protect fragile goods</h5></h3>
+<h3>Book Shipping Boxes<br/><h5>Ship with your product's exact size and <br/>shape</h5></h3>
+<h3>Econoflex Shipping Boxes<br/><h5>A no-brainer budget box. Ultra <br/>affordable and eco-friendly</h5></h3>
+
+</div>
+</div>
+<span className='text-span'
+onMouseEnter={() => setShowsix(true)}
+onMouseLeave={() => setShowsix(false)}
+>Pouches</span>
+{/* */}
+<div className={`show-hover ${Showsix ?"show-hover-one" : ""}`}
+onMouseEnter={() => setShowsix(true)}
+onMouseLeave={() => setShowsix(false)}
+>
+<span className='box-head-tow'>
+<img src={boxnine}/>
+<img src={boxten}/>
+</span>
+<div className='text-box-fuor'>
+<h3>Stand-up Pouches<br/><h5>Stands upright for fuss-free shelf<br/> displays.</h5></h3>
+<h3>Flat Pouches<br/><h5>Expands and conforms to your<br/> product's shape</h5></h3>
+
+</div>
+</div>
+<span className='text-span'
+onMouseEnter={() => setShowseven(true)}
+onMouseLeave={() => setShowseven(false)}
+>Packaging Accessories</span>
+{/* */}
+<div className={`show-hover ${Showseven ?"show-hover-one" : ""}`}>
+<span className='box-head-three'>
+<img src={boxeleven}/>
+    <img src={boxtwelve}/>
+    <img src={boxthirteen}/>
+</span>
+<div className='text-box'>
+<h3>Water Activated Tapes<br/><h5>Seal and add tamper-resistance to<br/> your boxes</h5></h3>
+<h3>Poly Tapes<br/><h5>Cost-effective way to seal and secure<br/> packages</h5></h3>
+<h3>Custom Tissue Papers<br/><h5>Add an elegant and eco-friendly layer<br/> to your vold fill</h5></h3>
+
+</div>
+</div>
+
 
 </div>
 </div>
