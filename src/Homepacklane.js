@@ -19,6 +19,15 @@ import boxten from './Pictures/Packlane_Nav_Flat_Pouches_276x207.png';
 import boxeleven from './Pictures/Packlane_Nav_Water-Activated_Tape_288x207.png';
 import boxtwelve from './Pictures/Packlane_Nav_Poly_Tape_288x207.png';
 import boxthirteen from './Pictures/Packlane_Nav_Tissue_288x207.png';
+import homepage from './Pictures/homepage-hero.jpg';
+import redbull from './Pictures/redbull.svg';
+import loreal from './Pictures/loreal.svg';
+import hp from './Pictures/hp.svg';
+import shopify from './Pictures/shopify.svg';
+import benefit from './Pictures/benefit.svg';
+import seatgeek from './Pictures/seatgeek.svg';
+import google from './Pictures/google.svg';
+import times from './Pictures/times.svg';
 function Home() {
     const [showDiv, setShowDiv] = useState(false);
     const [divShow, setDivShow] = useState(false);
@@ -33,6 +42,8 @@ function Home() {
 
 return(
 <>
+<span className='head-but-fix'>
+<button className='but-fix'>LIVE CHAT</button></span>
 <div className='hedar-shadow'> 
 <div className='heder'>
     <div className='top-head'>
@@ -210,6 +221,36 @@ onMouseLeave={() => setShowseven(false)}
 </div>
 </div>
 </div>
+
+<div className='container'>
+<div className='home-head'>
+    <span className='home-span'>
+<h1>Create custom<br/> packaging and boxes</h1>
+<h3>Custom packaging and boxes can turn your brand into the<br/> total package with full customization, instant quoting, and<br/> fast turnarounds.</h3>
+
+    <button>CHOOES YOUR PACKAGING STYLE</button>
+
+</span>
+<img src={homepage}/>
+</div>
+<div className='text-botto'><h4>TRUSTED BY OVER 25,000 BRANDS</h4></div>
+<div className='home-bottom'>
+
+
+<img src={redbull}/>
+<img src={loreal}/>
+<img src={hp}/>
+<img src={shopify}/>
+<img src={benefit}/>
+<img src={seatgeek}/>
+<img src={google}/>
+<img src={times}/>
+
+
+</div>
+</div>
+
+
 </>
 
 );}
