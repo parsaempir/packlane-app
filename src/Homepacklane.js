@@ -95,7 +95,8 @@ onMouseLeave={() => setShowone(false)}
 </div>
 </div>
 
-<div>
+<div className='shadow-one'>
+    
 <div className='heder'>
 <div className='bottom-head'>
 

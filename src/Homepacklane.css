@@ -3,6 +3,10 @@
     height: 70px;
 width: 100%;
 }
+.shadow-one{
+    width: 100%;
+   box-shadow:  0 5px 8px rgba(0, 0, 0, .08);
+}
 .heder{
     width: 100%;
     max-width: 1400px;
@@ -142,6 +146,7 @@ align-items: center;
 height: 65px;
 justify-content: center;
 gap: 55px;
+
 }
 .text-span{
     font-size: 17.5px;
@@ -330,5 +335,9 @@ margin: 5px 0px;
     background-position:40px 14px;
 cursor: pointer;
 font-family: 'Vazir', sans-serif;
+transition: all 1s ease;
 
+}
+.but-fix:hover{
+    background-color: RGB(110, 132, 182);
 }
