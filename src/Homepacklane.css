@@ -309,7 +309,7 @@ margin: 5px 0px;
 .home-bottom{
     width: 100%;
     max-width: 1400px;
-    margin: auto;
+    margin: auto; 
     display: flex;
     justify-content: space-between;
 }
@@ -340,4 +340,132 @@ transition: all 1s ease;
 }
 .but-fix:hover{
     background-color: RGB(110, 132, 182);
+}
+.container-one{
+    background-color: #F6F6F6;
+   padding-top: 120px;
+    padding-bottom: 203px;
+
+}
+.h-text h2{
+
+font-size: 48px;
+color: #2E469D;
+text-align: center;
+font-weight: bold;
+margin-top: 0;
+
+}
+.product{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto; 
+    display: flex;
+    text-align: center;
+}
+.product div{
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+transition: all 0.3s ease-in-out;
+}
+.product div:hover{
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+
+}
+.product div h2{
+    color: #2E469D;
+    font-size: 29px;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-bottom: 0px;
+
+}
+.product div h2:hover{
+    text-decoration:underline;
+}
+.product div h4{
+    color: #2E469D;
+    cursor: pointer;cursor: pointer;
+font-weight: 600;
+font-size: 17px;
+margin-top: 22px;
+transition: all 0.3s ease-in-out;
+
+}
+.product div h4:hover{
+    text-decoration: underline;
+      color: #1BDFC7;
+}
+.product div button{
+    padding: 24px 40px;
+width: max-content;
+    border-radius: 50px;
+    color: #2E469D;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.product div h2::before{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 3px;
+    background-color: #1BDFC7;
+    margin: 0 auto 14px;}
+    .product div button:hover{
+      background-color: #2E469D;
+      color: white;
+    }
+    .product div:hover button{
+        background-color: #F6F6F6;
+        margin-top: 20px;
+    }
+    .product div span{
+        display: none;
+        color: #373A3C;
+        font-size: 17px;
+    }
+    .product div:hover span{
+        display: block;
+       
+    }
+    .product div:hover .opacity-product{
+        opacity: 0;
+    }
+
+
+.product div span{
+    position: relative;
+ 
+}
+.product div span img{
+    position: absolute;
+bottom: 220px;
+cursor: pointer;
+
+transform: translate(-50%, -50%);
+}
+.productone{
+    height: 660px;
+}
+.producttow{
+    height: 660px;
+}
+.productthree{
+    height: 680px;
+}
+.productfuor{
+    height: 700px;
+}
+
+.econoflex-img{
+  margin-bottom: 50px;
 }

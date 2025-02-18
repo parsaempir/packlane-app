@@ -28,6 +28,14 @@ import benefit from './Pictures/benefit.svg';
 import seatgeek from './Pictures/seatgeek.svg';
 import google from './Pictures/google.svg';
 import times from './Pictures/times.svg';
+import product from './Pictures/mailer box-homepage.png';
+import productone from './Pictures/product box.png';
+import producttow from'./Pictures/shipping-box (2).png';
+import productthree from './Pictures/econoflex shipping box.png';
+import mailer from './Pictures/ico-m-mailer.svg';
+import carton from './Pictures/ico-m-carton.svg';
+import shipper from './Pictures/ico-m-shipper.svg';
+import econoflex from './Pictures/ico-m-econoflex.svg';
 function Home() {
     const [showDiv, setShowDiv] = useState(false);
     const [divShow, setDivShow] = useState(false);
@@ -251,6 +259,65 @@ onMouseLeave={() => setShowseven(false)}
 </div>
 </div>
 
+
+<div className='container-one'>
+   <span className='h-text'>
+   <h2>Choose your custom packaging style</h2></span>
+<div className='product'>
+
+<div className='productone'>
+<img src={product} className='opacity-product'/>
+<h2>Mailer Box</h2>
+<h4>LEARN MORE &nbsp; &gt;  </h4>
+<span>A durable and stylish corrugated<br/> cardboard mailer box that's great for <br/> shipping. Perfect forsubscription boxes,<br/>  gift boxes, and e-commerce packaging.
+
+</span>
+<span>
+<img src={mailer} className='opacity-hover'/>
+</span>
+<button>MEET OUR MAILR</button>
+</div>
+
+<div className='producttow'>
+<img src={productone} className='opacity-product'/>
+
+<h2>Product Box</h2>
+<h4>LEARN MORE &nbsp; &gt;  </h4>
+<span>Command attention on retail shelves with<br/> our product boxes made from SBS<br/> paperboard. Perfect for beauty<br/> packaging, supplements, and chocolate.
+</span>
+<span><img src={carton} /></span>
+
+<button>MEET OUR PRODUCT BOX</button>
+</div>
+
+<div className='productthree'>
+<img src={producttow} className='opacity-product'/>
+
+<h2>Shipping Box</h2>
+<h4>LEARN MORE &nbsp; &gt;  </h4>
+<span>Our custom corrugated cardboard<br/> shipping boxes are strong and seriously<br/> durable. Perfect for shipping large or<br/> heavy items but also an excellent choice<br/> to protect fragile items.</span>
+<span><img src={shipper}/></span>
+
+<button>MEET OUR SHIPPER</button>
+</div>
+
+<div className='productfuor'>
+<img src={productthree} className='opacity-product'/>
+
+<h2>Econoflex Shipping Box</h2>
+<h4>LEARN MORE  &nbsp;   &gt;  </h4>
+<span>Ultra affordable and Eco-Friendly. Our<br/> Econoflex shipping boxes are made from<br/> 100% recycled and recyclable Kraft with<br/> print quality that rivals flexo. They're<br/> sturdy enough for bulky items and a no-<br/>brainer for your budget.
+</span>
+<span><img src={econoflex} className='econoflex-img'/></span>
+
+<button>MEET ECONOFLEX SHIPPRS</button>
+
+</div>
+
+</div>
+
+
+</div>
 
 </>
 

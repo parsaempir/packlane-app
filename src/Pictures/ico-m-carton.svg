@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="167px" height="165px" viewBox="0 0 167 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>classic cartoon copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="i5-homepage-hovers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-03-homepage-hovers" transform="translate(-641.000000, -294.000000)">
+            <g id="hover-carton" transform="translate(494.000000, 249.000000)">
+                <g id="classic-cartoon-copy" transform="translate(148.000000, 40.000000)">
+                    <polygon id="Path-6" fill="#F9CF57" points="54.117513 134.861823 165.485232 51.7476263 165.660139 87.252899 54.3734752 169.937304"></polygon>
+                    <g id="Group-2" transform="translate(0.000000, 25.767259)" stroke="#233E98" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline id="Stroke-1" points="157.91762 56.3414046 46.5935061 139.887457 0.511760526 119.421805"></polyline>
+                        <polygon id="Stroke-3" points="157.770113 20.8289217 46.4459991 104.374974 0.364253509 83.9093216 111.688368 0.363268968"></polygon>
+                        <path d="M0.511542105,119.422022 L0.36374386,83.909249" id="Stroke-5"></path>
+                        <path d="M46.4458535,104.37512 L46.5936518,139.887893" id="Stroke-7"></path>
+                        <path d="M157.770113,20.8289217 L157.917911,56.3416951" id="Stroke-9"></path>
+                    </g>
+                    <path d="M51.4081415,43.2392208 L96.4977774,12.0727571 M62.633777,55.3698804 L107.723413,24.2034166 M74.0465064,67.5005399 L119.136142,36.1474506" id="Stroke-9" stroke="#F17EA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(85.272142, 39.786649) rotate(-77.000000) translate(-85.272142, -39.786649) "></path>
+                    <ellipse id="Oval" stroke="#1BDFC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="37.1898246" cy="81.0492139" rx="24.9" ry="24.8376623"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
