@@ -410,6 +410,7 @@ width: max-content;
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
+    
 
 }
 
@@ -427,6 +428,9 @@ width: max-content;
     .product div:hover button{
         background-color: #F6F6F6;
         margin-top: 20px;
+    }
+    .product div:hover button:hover{
+        background-color: #2E469D;
     }
     .product div span{
         display: none;
