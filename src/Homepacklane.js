@@ -44,6 +44,12 @@ import tiny from './Pictures/tiny-minimums.png';
 import isntant from './Pictures/isntant-quotes.png';
 import fast from './Pictures/fast-turnarounds.png';
 import screenshotone from './Pictures/screen shot.png';
+import mailerbox from './Pictures/mailer-box-employee-welcome-kit.png';
+import folding from './Pictures/folding-carton-boxes.png';
+import shipperfd from './Pictures/shipper-fd.png';
+import corrugatedmailer from './Pictures/corrugated-mailer-boxes.png';
+import corrugatedprinted from './Pictures/corrugated-printed-boxes.png';
+import customprinted from './Pictures/custom-printed-folding-cartons.png';
 function Home() {
     const [showDiv, setShowDiv] = useState(false);
     const [divShow, setDivShow] = useState(false);
@@ -370,6 +376,84 @@ onMouseLeave={() => setShowseven(false)}
 <h3>Watch how Father Time Bread is slicing up the competition by delivering the ultimate<br/> unboxing experience with fresh bread shipped directly to customers in custom printed boxes.</h3>
 <span>
 <img src={screenshotone}/></span>
+</div>
+</div>
+
+<div className='head-container-four'>
+<h2 className='container-four-text'>Box design that inspires </h2>
+<h3 className='container-four-textone'>We’re here to help with packaging solutions that make sense for businesses of any kind. Whether you’re designing custom<br/> retail packaging with your logo or need corrugated cardboard mailers for your ecommerce biz, there’s lots of inspiration to be<br/> found for your custom product packaging.</h3>
+<div className='container-four'>
+   
+    <div>
+<span className='container-four-span-img'>
+<span className='card-img'>
+    <img src={mailerbox}/>
+    <span className='hover-text-span'>
+        <span>
+  <h2>Mailer Box</h2>
+    <h5>LEARN MORE</h5></span>
+    </span>
+    </span>
+
+  
+    <span className='card-img'>
+    <img src={folding}/>
+    <span className='hover-text-span'>
+        <span>
+  <h2>Product Box</h2>
+    <h5>LEARN MORE</h5></span>
+    </span>
+    </span>
+</span>
+<span className='container-four-span-imgone'>
+
+<span className='card-imgone'>
+<img src={shipperfd} className="card-image"/>
+    <span className='hover-text-span'>
+        <span>
+  <h2>Shipping Box</h2>
+    <h5>LEARN MORE</h5></span>
+    </span>
+    </span>
+</span>
+</div>
+
+<div>
+<span className='container-four-span-imgone'>
+   
+    <span className='card-imgone'>
+    <img src={corrugatedmailer} className="card-image"/>
+    <span className='hover-text-span'>
+        <span>
+  <h2>Mailer Box</h2>
+    <h5>LEARN MORE</h5></span>
+    </span>
+    </span>
+</span>
+
+<span className='container-four-span-img'>
+
+<span className='card-img'>
+<img src={corrugatedprinted}/>
+    <span className='hover-text-span'>
+        <span>
+  <h2>Shipping Box</h2>
+    <h5>LEARN MORE</h5></span>
+    </span>
+    </span>
+
+<span className='card-img'>
+<img src={customprinted}/>
+    <span className='hover-text-span'>
+        <span>
+  <h2>Product Box</h2>
+    <h5>LEARN MORE</h5></span>
+    </span>
+    </span>
+</span>
+</div>
+
+
 </div>
 
 
