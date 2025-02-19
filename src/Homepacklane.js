@@ -326,7 +326,7 @@ onMouseLeave={() => setShowseven(false)}
 
 <div className='container-tow'>
 
-<h1>How it worksx</h1>
+<h1>How it works</h1>
 <h3>Select a packaging style, quantity, and choose from custom or stock sizes – then start designing your custom boxes.<br/> Add customization options like images, text, and any color your brand requires. As you design you'll see an instant<br/> quote so you know exactly what your final order will come to.</h3>
 
 <img src={screenshot} className='screen-img' />
