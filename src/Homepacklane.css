@@ -475,8 +475,9 @@ transform: translate(-50%, -50%);
 }
 .container-tow{
     width: 100%;
-    max-width: 1400px;
+    max-width: 1270px;
     margin: auto; 
+    
 }
 .container-tow h1{
     text-align: center;
@@ -488,5 +489,42 @@ transform: translate(-50%, -50%);
     text-align: center;
     color: #373A3C;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
+   margin-bottom: 40px;
+}
+.circle{
+    position: absolute;
+    z-index: -1;
+left: 100px;
+bottom: 550px;
+}
+.circle-span{
+    position: relative;
+}
+.head-container-tow{
+    padding-top: 100px;
+}
+.screen-img{
+    filter: drop-shadow(0 0 24px rgba(0, 0, 0, .16));
+}
+
+.triangle{
+    position: absolute;
+    z-index: -1;
+right: -115px;
+    bottom: 485px;
+}
+.triangle-span{
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.lines{
+    position: absolute;
+    z-index: -1;
+    left: 100px;
+    bottom: -200px;
+}
+.lines-span{
+    position: relative;
 }
