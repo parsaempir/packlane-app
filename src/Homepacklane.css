@@ -665,6 +665,7 @@ margin-bottom: 45px;
 }
 .card-img:hover .hover-text-span{
     opacity: 1;
+    box-shadow:  0 5px 8px rgba(0, 0, 0, .08);
 }
 .hover-text-span  h2::before{
     content: "";
@@ -697,11 +698,14 @@ font-size: 32px;
 .card-imgone{
     position: relative;
     width: 684px;
-    height: 1000px;
+    height: 684px;
     overflow: hidden;
+   
+
 }
 .card-imgone:hover .hover-text-span{
     opacity: 1;
+    box-shadow:  0 5px 8px rgba(0, 0, 0, .08);
 }
 .card-image {
     width: 100%;
