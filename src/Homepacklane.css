@@ -650,6 +650,7 @@ margin-bottom: 45px;
     position: absolute;
     top: 0;
     left: 0;
+  
     width: 100%;
     height: 100%;
     background-color: rgba(46, 70, 158, .85);
@@ -711,8 +712,11 @@ font-size: 32px;
     width: 100%;
     height: 100%;
     object-fit: cover; 
-    display: block;
+
 }
+.card-imgone, .hover-text-spanone, .container-four-span-imgone {
+    display: block;
+} 
 .head-container-four{
     padding-top: 90px;
 }
