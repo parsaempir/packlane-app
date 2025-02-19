@@ -714,7 +714,7 @@ font-size: 32px;
     object-fit: cover; 
 
 }
-.card-imgone, .hover-text-spanone, .container-four-span-imgone {
+.card-imgone, .container-four-span-imgone {
     display: block;
 } 
 .head-container-four{
