@@ -340,7 +340,9 @@ onMouseLeave={() => setShowseven(false)}
 <span className='lines-span'>
 <img src={lines} className='lines'/>
 </span>
-
+<span className='span-btn-get'>
+    <button className='btn-get'>GET STARTED NOW</button>
+</span>
 </div>
 
 </>

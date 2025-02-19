@@ -506,6 +506,7 @@ bottom: 550px;
 }
 .screen-img{
     filter: drop-shadow(0 0 24px rgba(0, 0, 0, .16));
+
 }
 
 .triangle{
@@ -527,4 +528,26 @@ right: -115px;
 }
 .lines-span{
     position: relative;
+}
+.span-btn-get{
+    display: flex;
+    justify-content: center;
+position: relative;
+margin-top: 30px;
+}
+.btn-get{
+  
+    padding: 23px 40px;  
+    border-radius: 50px;
+    background-color: #F6F6F6;
+    color: #2E469D;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn-get:hover{
+background-color: #2E469D;
+color: white;
 }
