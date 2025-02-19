@@ -344,7 +344,7 @@ transition: all 1s ease;
 .container-one{
     background-color: #F6F6F6;
    padding-top: 120px;
-    padding-bottom: 203px;
+    padding-bottom: 60px;
 
 }
 .h-text h2{
@@ -472,4 +472,21 @@ transform: translate(-50%, -50%);
 
 .econoflex-img{
   margin-bottom: 50px;
+}
+.container-tow{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto; 
+}
+.container-tow h1{
+    text-align: center;
+    color: #2E469D;
+    font-size: 44px;
+    font-weight: bold;
+}
+.container-tow h3{
+    text-align: center;
+    color: #373A3C;
+    font-weight: 500;
+    font-size: 20px;
 }

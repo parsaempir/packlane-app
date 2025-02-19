@@ -36,6 +36,12 @@ import mailer from './Pictures/ico-m-mailer.svg';
 import carton from './Pictures/ico-m-carton.svg';
 import shipper from './Pictures/ico-m-shipper.svg';
 import econoflex from './Pictures/ico-m-econoflex.svg';
+import circle from './Pictures/circle.svg';
+import triangle from './Pictures/triangle.svg';
+import lines from './Pictures/lines.svg';
+
+
+
 function Home() {
     const [showDiv, setShowDiv] = useState(false);
     const [divShow, setDivShow] = useState(false);
@@ -311,12 +317,18 @@ onMouseLeave={() => setShowseven(false)}
 <span><img src={econoflex} className='econoflex-img'/></span>
 
 <button>MEET ECONOFLEX SHIPPRS</button>
-
+</div>
+</div>
 </div>
 
+
+<div>
+
+<div className='container-tow'>
+
+<h1>How it worksx</h1>
+<h3>Select a packaging style, quantity, and choose from custom or stock sizes – then start designing your custom boxes.<br/> Add customization options like images, text, and any color your brand requires. As you design you'll see an instant<br/> quote so you know exactly what your final order will come to.</h3>
 </div>
-
-
 </div>
 
 </>
