@@ -40,8 +40,10 @@ import circle from './Pictures/circle.svg';
 import triangle from './Pictures/triangle.svg';
 import lines from './Pictures/lines.svg';
 import screenshot from './Pictures/Screenshot 2025-02-19 at 4.54.53 AM.png';
-
-
+import tiny from './Pictures/tiny-minimums.png';
+import isntant from './Pictures/isntant-quotes.png';
+import fast from './Pictures/fast-turnarounds.png';
+import screenshotone from './Pictures/screen shot.png';
 function Home() {
     const [showDiv, setShowDiv] = useState(false);
     const [divShow, setDivShow] = useState(false);
@@ -343,8 +345,35 @@ onMouseLeave={() => setShowseven(false)}
 <span className='span-btn-get'>
     <button className='btn-get'>GET STARTED NOW</button>
 </span>
+<div className='head-top-img'>
+    <span>
+<img src={tiny}/>
+<h2>Tiny minimums. No maximums.</h2>
+<h3>No matter the size of your custom packaging<br/> order, you'll get the best boxes at prices to <br/>match.</h3>
+</span>
+<span><img src={isntant}/>
+<h2>Instant quotes</h2>
+<h3>Pick your style, design your boxes, and get an<br/> instant quote.</h3>
+</span>
+<span><img src={fast}/>
+<h2>Fast turnarounds</h2>
+<h3>Eligible orders may ship within 10 days or less<br/> with priority turnaround options.</h3>
+</span>
+</div>
 </div>
 
+
+<div className='head-container-three'>
+<div className='container-three'>
+
+<h1>See how to succeed with custom packaging</h1>
+<h3>Watch how Father Time Bread is slicing up the competition by delivering the ultimate<br/> unboxing experience with fresh bread shipped directly to customers in custom printed boxes.</h3>
+<span>
+<img src={screenshotone}/></span>
+</div>
+
+
+</div>
 </>
 
 );}
