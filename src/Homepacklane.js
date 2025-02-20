@@ -50,6 +50,7 @@ import shipperfd from './Pictures/shipper-fd.png';
 import corrugatedmailer from './Pictures/corrugated-mailer-boxes.png';
 import corrugatedprinted from './Pictures/corrugated-printed-boxes.png';
 import customprinted from './Pictures/custom-printed-folding-cartons.png';
+import homepageabout from './Pictures/homepage-about.jpg'
 function Home() {
     const [showDiv, setShowDiv] = useState(false);
     const [divShow, setDivShow] = useState(false);
@@ -452,11 +453,67 @@ onMouseLeave={() => setShowseven(false)}
     </span>
 </span>
 </div>
-
-
 </div>
 
+<div className='container-four-center'>
+    <div className='background-img'></div>
+<img src={homepageabout}/>
+<span>
+<h2>More than just a pretty <br/>package</h2>
+<h3>Customizable from the inside out, every custom printed box we create<br/> is made just for you – and with your customers in mind. Make a <br/>statement in the mail or on display with an unboxing experience unlike <br/>any other. Your products deserve custom packaging boxes crafted<br/> with sustainable materials, impeccable print quality, and picture-<br/>perfect design. Create packaging that wows no matter your use-case,<br/> business, or industry.</h3>
+<button>FIND OUT WHAT MAKES OUR BOXES SPECIAL
+</button>
 
+</span>
+</div>
+<div className='text-h-bottom'>
+<h2>Frequently Asked Questions</h2> 
+<h3>Below you'll find answers to some common questions around creating a custom box. Every order is little different though, so don't hesitate to<br></br> <span>reach out</span> with anything else you might be wondering.</h3>
+</div>
+
+<div className='container-four-bottom'>
+
+<div>
+<h3>Can I get an instant quote for my order?</h3>
+<h5>Yes, you can select your size, material, and quantity on our free 3D design tool to<br/> instantly view a quote for your project. As you upload artwork, add text, or color the<br/> background in each panel of the 3D model, you'll see your Unit Price update in real-<br/>time. </h5>
+<h3>What packaging products can I order from Packlane?</h3>
+<h5>At Packlane, we offer a variety of packages for you to choose from and customize. Our<br/> custom packaging boxes include Shipping Boxes, Mailer Boxes, and Product Boxes.<br/> They can be ordered in both stock and custom sizes at low minimums. These box<br/> styles are perfect for either retail packaging or ecommerce deliveries. Our Mailer Box<br/> and Shipping Box cardboard products are safe to mail, while our Product Box<br/> packages are intended for display (or to be placed within a shipping-safe box when<br/> sent out for delivery). Get started with our easy-to-use box designer and create<br/> custom printed packaging boxes for your brand today.</h5>
+
+<h3>What if I'm designing in Adobe Illustrator?</h3>
+<h5>If you're building your design on one of our Illustrator templates, you can submit your<br/> file on our Dieline Upload tool and a quote for your project will be sent to you ASAP. <br/>You can also email your dieline to our customer support team and we'll send you back<br/> a quote. If you do not have packaging artwork for your box yet, you can get a rough<br/> quote by applying a solid color on any panels of our 3D design tool where you will want<br/> your design printed.</h5>
+
+<h3>How does your 3D box designer work?</h3>
+<h5>If you have individual artwork elements such as logos, images or text, you can<br/> customize your box specifications directly on our 3D design tool and receive pricing on <br/>that same page. As you build your design on the 3D box model, you will see your Unit<br/> Price update in real-time to reflect any changes that affect your project's pricing. Once<br/> you have finalized your design, you can proceed directly to checkout, save your design <br/>for later, or even share your design with friends or colleagues!</h5>
+
+<h3>What is the turnaround time on my order?</h3>
+<h5>Our Standard turnaround for most custom packaging orders is around 10 business<br/> days and Rush turnaround is 7 business days. These turnarounds do not include transit <br/>time (1 - 7 business days depending on your location). Special custom or bulk orders <br/>may require a few extra days to get setup and produced. Please note that during<br/> extremely busy times of year some orders may take longer to complete. While delivery <br/>estimates cannot be guaranteed, all dates shown at checkout are the quickest<br/> estimate we offer. If your delivery date is time sensitive, we highly recommend<br/> choosing Rush production and expedited shipping for your box orders.</h5>
+</div>
+
+<div>
+<h3>What happens after I place my order? Do I get a proof before<br/> printing?</h3>
+<h5>After checkout, our dedicated Prepress team will review your design for any technical<br/> concerns and send a 2D digital proof of your custom boxes to your email within 24 <br/>hours. If any changes need to be made, you can send a note directly to our Prepress <br/>team through the proof page and they'll be happy to help with finalizing your design for<br/> printing.</h5>
+
+<h3>Will I see a proof for my order?</h3>
+<h5>All new orders will receive a digital proof within 24 hours of completing the checkout<br/> process.</h5>
+
+<h3>How do I know if my art is printable?</h3>
+<h5>Our dedicated in-house Prepress team will review your custom box design for any<br/> technical concerns (artwork resolution, blurriness, splits, thin lines, and bleeds) and if<br/> found, will note them for your attention in the proof. If you're unsure of how to fix any<br/> printing concerns that are noted, our Prepress representatives are happy to help you<br/> through the process. It's important to keep in mind that our team does not check for<br/> spelling or grammar errors, nor do they provide any subjective feedback on design <br/>content.</h5>
+
+<h3>Can you print inside the boxes?</h3>
+<h5>Yes! We can print on the inside of any of our corrugated box styles. This includes<br/> Mailers, Shipping Boxes, and Tuck Tops (our secret menu product!). Product Boxes are<br/> currently limited to printing on the exterior only. You can even use our online box<br/> designer to design the inside of your custom boxes. For Shippers and Tuck Tops, we<br/> currently require a 2D dieline template be submitted for both the interior and exterior<br/> so we can set up your order as a custom order. You can also submit designs this way<br/> for our Mailer boxes, if you prefer to build on a 2D Illustrator template instead of our<br/> free 3D box design tool.</h5>
+
+<h3>What choices affect my pricing?</h3>
+<h5>As a high-volume producer with scale economies, Packlane provides the industry's<br/> most competitive prices on custom printed boxes available. Pricing is generally a <br/>factor of five things: dimensions, box style, ink coverage on the box, box material, and <br/>quantity (higher quantities = bulk savings). Custom orders of 5,000 or more can be<br/> eligible for volume discounts. If you have questions about pricing or choices that can<br/> affect your custom packaging order, our customer support team is happy to help!</h5>
+</div>
+
+</div>
+</div>
+
+<div className='container-five'>
+
+<h2>Request a quote</h2>
+<h3>Get a custom quote for boxes and more.</h3>
+<button>REQUEST QUOTE</button>
 </div>
 </>
 
