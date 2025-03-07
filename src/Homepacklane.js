@@ -50,7 +50,8 @@ import shipperfd from './Pictures/shipper-fd.png';
 import corrugatedmailer from './Pictures/corrugated-mailer-boxes.png';
 import corrugatedprinted from './Pictures/corrugated-printed-boxes.png';
 import customprinted from './Pictures/custom-printed-folding-cartons.png';
-import homepageabout from './Pictures/homepage-about.jpg'
+import homepageabout from './Pictures/homepage-about.jpg';
+import bars from './Pictures/bars-solid.svg';
 function Home() {
     const [showDiv, setShowDiv] = useState(false);
     const [divShow, setDivShow] = useState(false);
@@ -70,7 +71,13 @@ return(
 <div className='hedar-shadow'> 
 <div className='heder'>
     <div className='top-head'>
-<img src={Logo} />
+       
+<img src={Logo} className='logo-site'/>
+<span className='bars-img'>
+<img src={buy} height='40px'/>
+    <img src={bars} height='40px'/>
+
+</span>
 <span className='head-inp'>
 <input type='text' placeholder="Serach for products|" className='inp'/> <img src={serach} height='20px'/></span>
 <div className='head-text'>
@@ -119,10 +126,11 @@ onMouseLeave={() => setShowone(false)}
 </div>
 
 <div className='shadow-one'>
-    
-<div className='heder'>
-<div className='bottom-head'>
 
+<div className='heder'>
+
+<div className='bottom-head'>
+<span className='inp-span-none'><input className='inp-none' placeholder='Search for produts |'/><img src={serach} height='20px' className='search-icon'/></span>
 
 <span className='text-span'
 onMouseEnter={() => setShowtow(true)}
@@ -246,7 +254,9 @@ onMouseLeave={() => setShowseven(false)}
 </div>
 </div>
 
+
 <div className='container'>
+
 <div className='home-head'>
     <span className='home-span'>
 <h1>Create custom<br/> packaging and boxes</h1>

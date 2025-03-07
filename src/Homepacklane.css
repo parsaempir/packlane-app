@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
 }
+
 .hedar-shadow{
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -851,3 +852,86 @@ background-color: #FFF8ED;;
 .container-five button:hover{
     background-color: RGB(110, 132, 182);
 }    
+.bars-img{
+    display: none;
+}
+.inp-none{
+    display: none;
+}
+.search-icon{
+    display: none;
+}
+@media (max-width: 1000px) {
+  
+     .text-span{
+     display: none;
+     
+    }
+    .bottom-head{
+        background-color: #C3E6D0;
+    }
+    .head-text{
+        display: none;
+    }
+    .head-inp{
+        display: none;
+    }
+    .top-head{
+        background-color: #C3E6D0;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      .bars-img{
+        display: block;
+    margin-right: 20px;
+    display: flex;
+    gap: 20px;
+      }
+      .logo-site{
+        margin-left: 20px;
+      }
+  .inp-none{
+        display: block;
+       width: 90%;
+min-height: 40px;
+border-radius: 24px;
+padding: 5px 0 0 24px;
+border: none;
+      }
+      .inp-none::placeholder{
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .inp-span-none{
+        position: relative;
+width: 100%;
+display: flex;
+justify-content: center;
+
+      }
+      .search-icon{
+        position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+ 
+  height: 20px;
+  cursor: pointer;
+  display: block;
+      }
+      .home-head img{
+        height: 50vw;
+      }
+      .home-head{
+ 
+        flex-direction: column-reverse;
+
+   
+      }
+      .home-bottom{
+        flex-wrap: wrap;
+      }
+  }
