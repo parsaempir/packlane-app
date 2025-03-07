@@ -926,12 +926,27 @@ justify-content: center;
         height: 50vw;
       }
       .home-head{
- 
         flex-direction: column-reverse;
+      }
+      .home-span{
+       text-align: center;
 
-   
+      }
+      .home-span h1{
+        font-size: 36px;
+      }
+      .home-span h3{
+        font-size: 16px;
+      }
+      .btn-button{
+        display: flex;
+        justify-content: center;
       }
       .home-bottom{
         flex-wrap: wrap;
+      }
+      .text-botto{
+        display: flex;
+        justify-content: center;
       }
   }

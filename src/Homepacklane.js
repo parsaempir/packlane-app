@@ -261,9 +261,9 @@ onMouseLeave={() => setShowseven(false)}
     <span className='home-span'>
 <h1>Create custom<br/> packaging and boxes</h1>
 <h3>Custom packaging and boxes can turn your brand into the<br/> total package with full customization, instant quoting, and<br/> fast turnarounds.</h3>
-
+<span className='btn-button'>
     <button>CHOOES YOUR PACKAGING STYLE</button>
-
+    </span>
 </span>
 <img src={homepage}/>
 </div>
