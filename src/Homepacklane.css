@@ -936,7 +936,7 @@ justify-content: center;
         font-size: 36px;
       }
       .home-span h3{
-        font-size: 16px;
+        font-size: 16px; 
       }
       .btn-button{
         display: flex;
@@ -953,5 +953,30 @@ justify-content: center;
       .product{
   flex-direction: column;
  align-items: center;
+      }
+      .screen-img{
+        height: 50vw;
+      }
+      .container-tow{
+      display: flex;
+      flex-direction: column;
+        align-items: center;
+      }
+      .circle{
+        bottom: 0;
+        left: 0;
+      }
+      .triangle-span{
+        display: none;
+      }
+      .head-top-img{
+        flex-direction: column;
+      }
+      .lines{
+        bottom: -400px;
+        left: 0;
+      }
+      .container-three img{
+        height: 50vw;
       }
   }
