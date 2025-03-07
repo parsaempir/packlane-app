@@ -949,4 +949,8 @@ justify-content: center;
         display: flex;
         justify-content: center;
       }
+      .product{
+  flex-direction: column;
+ align-items: center;
+      }
   }
