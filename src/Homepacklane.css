@@ -923,7 +923,7 @@ justify-content: center;
   display: block;
       }
       .home-head img{
-        height: 50vw;
+        height: 50vh;
       }
       .home-head{
         flex-direction: column-reverse;
@@ -944,6 +944,7 @@ justify-content: center;
       }
       .home-bottom{
         flex-wrap: wrap;
+        
       }
       .text-botto{
         display: flex;
