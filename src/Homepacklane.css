@@ -944,7 +944,7 @@ justify-content: center;
       }
       .home-bottom{
         flex-wrap: wrap;
-        
+        width: 90%;
       }
       .text-botto{
         display: flex;
